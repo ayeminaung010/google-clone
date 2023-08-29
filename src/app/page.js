@@ -1,3 +1,5 @@
+
+import Footer from '@/components/Footer'
 import HomeHeader from '@/components/HomeHeader'
 import HomeSearch from '@/components/HomeSearch'
 import Image from 'next/image'
@@ -13,6 +15,8 @@ const Home = () => {
         <Image src={"/googlelogo_color.png"} alt={"Google"} width={"300"} height={"100"} />
         <HomeSearch/>
       </div>
+
+      <Footer/>
     </div>
   )
 }

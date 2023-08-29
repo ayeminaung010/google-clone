@@ -39,7 +39,6 @@ const HomeSearch = () => {
                         "I'm Feeling Sad"
                     )
                 }
-                
             </button>
         </div>
     </>
